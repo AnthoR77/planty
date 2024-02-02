@@ -14,3 +14,24 @@ Updated: 2024-01-31 12:22:42
 body {
 background-color: red;
 }
+
+h2.elementor-heading-title {
+
+    color: blue;
+}
+
+.elementor-72 .elementor-element.elementor-element-f6fd81d.elementor-element {
+    position: absolute;
+    z-index: 10;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#feuille-droite{
+    position: absolute;
+    z-index: 9;
+    top: 25%;
+    left: 50%;
+   
+}
