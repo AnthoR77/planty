@@ -23,3 +23,26 @@ Updated: 2024-01-31 12:22:42
     font-weight: 400;
     font-size: 15px;
 }
+
+.collone{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 60px;
+    color: white;
+    
+}
+
+input[type="text"], input[type="email"]  {
+
+    max-width: 383px;
+    border-radius: 7px;
+    height: 71px;
+}
+
+textarea{
+
+    max-width: 383px;
+}
