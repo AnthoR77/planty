@@ -24,6 +24,7 @@ Updated: 2024-01-31 12:22:42
     font-size: 15px;
 }
 
+
 .collone{
 
     display: flex;
@@ -32,7 +33,7 @@ Updated: 2024-01-31 12:22:42
     justify-content: center;
     column-gap: 60px;
     color: white;
-    
+    margin-bottom: 50px;
 }
 
 input[type="text"], input[type="email"]  {
@@ -45,4 +46,31 @@ input[type="text"], input[type="email"]  {
 textarea{
 
     max-width: 383px;
+}
+
+.nombrecommande{
+    width: 39px;
+    height: 56px;
+}
+
+@media all and (max-width: 430px){
+
+    .demi-collonedroite {
+
+        margin-top: 25px;
+    }
+    input[type="text"],input[type="email"] {
+
+        max-width: 320px;
+    }
+
+}
+
+@media all and (max-width: 820px){
+
+    .demi-collonedroite {
+
+        margin-top: 25px;
+    }
+
 }
