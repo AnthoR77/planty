@@ -22,3 +22,20 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+
+
+
+
+add_filter( 'wp_nav_menu_items', 'prefix_add_menu_item', 10, 2 );
+/**
+ * Add Menu Item to end of menu
+ */
+function prefix_add_menu_item ( $items, $args ) {
+   if (is_user_logged_in() &&  $args->theme_location == 'primary' )
+       $items .=  '<li class="menu-item"><a href="/Projet6/wordpress/wp-admin">Admin </a></li>';
+       
+       return $items;
+    } 
+
+    
